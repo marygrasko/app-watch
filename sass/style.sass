@@ -2,7 +2,7 @@ $text-color: #555248
 div
     height: 2910px
     width: 100%
-    header
+    .headers
         div
             background: #FDFDFB
             display: flex
@@ -12,16 +12,16 @@ div
             color: $text-color
             height: 85px
             width: 100%
-            logo
+            &_logo
                 max-height: 19px
                 width: 100%
                 display: flex
                 justify-content: center
                 align-items: center
-                img
+                &_img
                     width: 19.19px
                     height: 19.21px
-                span
+                &_span
                     font-family: 'Playfair Display'
                     font-style: normal
                     font-size: 12px
@@ -37,7 +37,7 @@ div
             margin-right: 10px
             padding-left: 20px 
             border: 0px solid #1B1A17
-    div
+    .divs
         section
             section
                 background: #FDFDFB
@@ -71,14 +71,122 @@ div
                                 font-style: normal
                                 font-size: 14px
                                 line-height: 21px
+                            button
+                                margin-top: 64px
+                                width: 205px
+                                height: 64px
+                                background: #444240
+                                span
+                                    font-family: 'Roboto'
+                                    font-style: normal
+                                    font-weight: 500
+                                    font-size: 12px
+                                    line-height: 14px
+                                    letter-spacing: 0.05em
+                                    text-transform: uppercase
+                                    color: #FFFFFF
                     div
                         display: flex
                         justify-content: flex-start
-        section
+        .sectiont
             background: #FFF
             height: 720px
             width: 100%
-            section
+            &_one
+                height: 167px
+                width: 100%
+                display: flex
+                justify-content: center
+                &_text
+                    padding-top: 80px
+                    padding-left:300px
+                    align-items: center
+                    height: 36px
+                    width: 306px
+                    font-family: 'Playfair Display'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: 32px
+                    line-height: 43px
+                    color: #1B1A17
+                &_button
+                    border: none
+                    margin-left: 328px
+                    margin-top: 120px
+                    background: #FFF
+                    width: 104px
+                    height: 26.5px
+                    justify-content: flex-end
+                    box-shadow: 1px 4px 8px 0px rgba(34, 60, 80, 0.07)
+                    height: 15px
+                    width: 104px
+                    font-family: 'Roboto'
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 16px
+                    line-height: 19px
+            &_two
+                height: 553px
+                width: 100%
+                &_wath
+                    height: 553px
+                    width: 100%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    &_one
+                        height: 467px
+                        width: 370px
+                        margin-left: 34px
+
+                        display: flex
+                        flex-direction: column
+                        color: rgba(27, 26, 23, 0.82)
+                        background: #FDFDFB
+                        margin-left: 40px
+                        &_text
+                            height: 79px
+                            padding-top: 40px
+                            &_h
+                                padding-left: 40px
+                                height: 15px
+                                width: 110px
+                                font-family: 'Playfair Display'
+                                font-style: normal
+                                font-size: 14px
+                                line-height: 24px
+                                letter-spacing: 0.03em
+                            &_span
+                                padding-left: 40px
+                                height: 12px
+                                font-family: 'Prata'
+                                font-style: normal
+                                font-size: 12px
+                                line-height: 16px
+                        &_img
+                            height: 313px
+                            width: 313px
+                            filter: drop-shadow(2px 2px 10px rgba(85, 82, 72, 0.23))
+                            background-image: url('../img/Ellipse.svg')
+                        &_info
+                            height: 75px
+                            margin-top: 20px
+                            font-family: 'Playfair Display'
+                            font-size: 16px
+                            font-style: normal
+                            font-size: 16px
+                            line-height: 21px
+                            &_button 
+                                color: rgba(27, 26, 23, 0.82)
+                                margin-top: 50px
+                                padding-left: 40px
+                                text-decoration: none
+                                font-family: 'Playfair Display'
+                                font-size: 16px
+                                font-style: normal
+                                font-size: 16px
+                                line-height: 21px
+
 
 
 
